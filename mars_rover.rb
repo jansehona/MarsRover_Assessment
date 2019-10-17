@@ -87,7 +87,7 @@ class MarsRover
   end
 end
 
-#Create rover instance with the direction x, y, direction(N, E, S, or W)
+#Create rover instance with the position x, y, direction(N, E, S, or W)
 mars_rover1 = MarsRover.new(0,0,'N')
 mars_rover2 = MarsRover.new(0,0,'S')
 mars_rover3 = MarsRover.new(0,0,'E')
